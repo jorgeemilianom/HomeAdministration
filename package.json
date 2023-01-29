@@ -6,13 +6,21 @@
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
-    "web": "expo start --web"
+    "web": "expo start --web",
+    "rm": "cls && del package-lock.json && rd /S node_modules && del yarn.lock && rd /S .expo"
   },
   "dependencies": {
+    "@expo/webpack-config": "0.17.2",
+    "@react-native-material/core": "^1.3.7",
+    "@reduxjs/toolkit": "^1.9.2",
     "expo": "~47.0.12",
     "expo-status-bar": "~1.4.2",
     "react": "18.1.0",
-    "react-native": "0.70.5"
+    "react-dom": "18.1.0",
+    "react-native": "0.70.5",
+    "react-native-btr": "^2.2.0",
+    "react-native-web": "~0.18.7",
+    "react-redux": "^8.0.5"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9"

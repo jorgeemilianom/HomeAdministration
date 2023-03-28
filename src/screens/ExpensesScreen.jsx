@@ -29,7 +29,7 @@ export function ExpensesScreen() {
             style={{ background: '#18022c' }}
             header={
                 <AppBar
-                    style={{paddingTop:25}}
+                    style={{ paddingTop: 25 }}
                     title="Gastos fijos de Casa"
                     transparent
                     leading={props => (
@@ -52,8 +52,8 @@ export function ExpensesScreen() {
 }
 
 const TitleSubHeader = (props) => {
-    const pending_to_pay= props?.acount?.pending_to_pay;
-    
+    const pending_to_pay = props?.acount?.pending_to_pay;
+
     return (
         <View style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between' }}>
             <Text>Lista</Text>
